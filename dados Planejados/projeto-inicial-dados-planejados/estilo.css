@@ -1,0 +1,167 @@
+
+html, body, .capa{
+	height: 100%;
+	
+}
+
+body{
+	background: url('imagens/nx-multicanal-transparente.png'),
+				linear-gradient(50deg,#9bf0e1,#1123d2);
+				
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/*----   Barra Navegação ----*/
+.img-logo{
+	height: 80px;
+	width: 132px;
+	display: block;
+	background: url('imagens/logobar.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center;
+	margin-top: -26px;
+}
+
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background:rgba(0,0,0,0.6);
+	border: none;
+	
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+footer .nav a{
+	color: white;
+	background:black;
+	font-size: 20px;
+}
+
+footer .nav a:hover{
+	color: white;
+	background:black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #9bf0e1;
+}
+
+
+/*----   Capa Principal ----*/
+
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.texto-capa{
+	text-align: center;
+	color:white;	
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*-- Botoes --*/
+.btn-custom{
+	color:white;
+	border-radius: 500px;
+	-webkit-border-radius:500px;
+	-moz-border-radius:500px;
+	padding: 10px 35px;
+	margin: 0px 15px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-branco{
+	border : 2px solid white;
+}
+
+.btn-branco:hover{
+	background: white;
+}
+
+.btn-azul{
+	background: #1123d2;
+}
+
+.btn-azul:hover{
+	color: white;
+}
+
+/*----   secao Servico ----*/
+
+#servicos{
+	background:white;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+.graficos{
+	padding:10px 0px 10px 0px;
+}
+/*----   Tipografia ----*/
+
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -8px;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	padding: 5px 0px 5px 0px;
+}
+
+.texto-azul{
+	color:#1123d2;
+}
+
+.texto-preto{
+	color:black;
+}
+
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+.rotacionar{
+	 transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	margin-top: -30px
+	padding: auto;
+	margin-left: 20px;
+}
+
+footer{
+	background:black;
+	padding: 50px 0px 20px 0px;
+}
+
+#rodape h4{
+	color:#919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.block li{
+	display: inline-block;
+	background: red;
+	float: right;
+}
